@@ -1,0 +1,89 @@
+* {
+  /* box-sizing: border-box; */
+  /* margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  content: " "; */
+}
+body{
+  /* background-color: white; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  z-index: -2;
+}
+
+.QuoteContainer {
+    padding: 10px;
+  margin: auto;
+  padding: 30px;
+  margin-top: 10%;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+blockquote {
+  font-size: 25px;
+  border-left: 0px;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+.QuoteDiv {
+    font-size: 22px;
+    padding:25px;
+    height:auto;
+    color: #333;
+    box-sizing: border-box;
+    font-family: 'Gentium Basic', serif;
+    transition: all 2s;
+}
+
+.QuoteAuthor {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 1%;
+    color:#333;
+}
+
+.Button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.QuoteButton {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #008CBA;
+  border: 2px solid #008CBA;
+  font-family: 'Gentium Basic', serif;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.QuoteButton:hover {
+    color: white; 
+  background-color: #008CBA; 
+  
+}

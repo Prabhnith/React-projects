@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lato', arial, sans-serif;
+    color: #fff;
+    background: #131044;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Card {
+    box-sizing: border-box;
+    float:left;
+    padding:30px;
+    margin:5px 20px 5px 35px;
+    box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.5);
+}
+.BottomCard {
+    box-sizing: border-box;
+    float:left;
+    padding:10px 30px 0px 30px;
+    margin:0px 20px 5px 35px;
+    box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.5);
+}
+.CardRight {
+    padding: 10px 30px 10px 30px;
+    margin: 5px 0 5px 0px;
+    box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.5);
+}
+
+.CardContainer {
+    box-sizing: border-box;
+
+}
+
+.Skill{
+    font-weight: bold;
+}
+
+.SkillsPara{
+    line-height: 1.8em;
+}
+
+.Link{
+    text-decoration:none;
+    color:#fff;
+}
+
+.Contacts{
+    margin-top:0px;
+}

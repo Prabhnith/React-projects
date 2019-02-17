@@ -1,0 +1,48 @@
+body{
+    margin:20px;
+    
+}
+.Left {
+    float: left;
+    width:65%;
+    top: 10%;
+    position: absolute;
+    left: -1%;
+}
+
+.Right {
+    float: right;
+    width:35%;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+
+@media (min-width:400px ) and (max-width:786px){
+    .Right{
+        float: left;
+        width: 93%;
+        margin: 2% 5% 1% 5%;
+        position:relative;
+    }
+    .Left{
+        width: 100%;
+        top: 10%;
+        position: relative;
+    }
+
+}
+
+.NavLink{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+
+.Nav{
+    list-style-type:none;
+}
+
+.Nav >li{
+    display: inline;
+}
